@@ -10,9 +10,6 @@
     margin:20px 5px;
 }*/
 
-.carousel-item img{
-  height: 40%;
-}
 .container {
     margin: 2rem auto;
   }
@@ -78,3 +75,18 @@
     grid-row-end: 9;
  
   }
+
+ @media screen and (max-width:780px){
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      bottom: 20px;
+      left: 15%;
+      z-index: 15;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      display: block !important;
+  }
+ }
