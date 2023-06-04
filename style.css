@@ -10,6 +10,9 @@
     margin:20px 5px;
 }*/
 
+.carousel-item img{
+  height: 40%;
+}
 .container {
     margin: 2rem auto;
   }
